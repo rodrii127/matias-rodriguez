@@ -12,7 +12,7 @@ export const LoginScreen = ( {history} ) => {
         userName: 'matiasrodriguez',
         password: 'probando1234'
     });
-
+    
     const { userName, password } = formValues;
     
     const handleLogin = (e) =>{
@@ -21,9 +21,7 @@ export const LoginScreen = ( {history} ) => {
             dispatch( {
                 type: types.login,
                 payload:{
-                    name: 'Matías',
-                    username: userName,
-                    password: password
+                    name: 'Matias'
                 }
             } );
             Swal.fire(
@@ -31,11 +29,11 @@ export const LoginScreen = ( {history} ) => {
                 'Estás como modo administrador.',
                 'success'
             );
-            history.replace('/management/blog-create');
+            history.replace('/blog-management');
         } else{
             Swal.fire({
                 title: 'Error!',
-                text: 'Do you want to continue',
+                text: 'Error al iniciar sesión.',
                 icon: 'error',
                 confirmButtonText: 'Cool'
               })

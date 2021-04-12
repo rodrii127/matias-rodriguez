@@ -15,7 +15,7 @@ import administrative from '../../static/icons/administrative.png';
 
 export const ServicesSection = () => {
     return (
-        <section style={{backgroundColor:'lightgray'}}>
+        <section style={{backgroundColor:'lightgray'}} className='animate__animated animate__fadeIn'>
             <div className='titulos'>
                 <h1>Servicios</h1>
             </div>
@@ -151,7 +151,7 @@ export const ServicesSection = () => {
                     <div className="col">
                         <div className="card h-100 card-areas-servicios">
                             <div className="card-body">
-                                <h5 className="card-title areas-servicios">Administrativo</h5>
+                                <h5 className="card-title areas-servicios" style={{fontSize:'19px'}}>Administrativo</h5>
                                 <p className='image-card'>
                                     <img src={administrative} alt='administrative'></img>
                                 </p>

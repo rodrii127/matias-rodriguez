@@ -5,7 +5,7 @@ import articulo3 from '../../static/articulo3.png';
 
 export const CardsPublicationsSection = () => {
     return (
-        <div>
+        <div className='animate__animated animate__fadeInLeft'>
             <div className='titulos'>
                 <h1>Publicaciones</h1>
             </div>
@@ -15,7 +15,7 @@ export const CardsPublicationsSection = () => {
             <div className="row row-cols-1 row justify-content-center row-cols-md-5 g-4 mx-auto mb-4">
                 <div className="col">
                     <div className="card h-100 rounded border border-dark">
-                        <img src={articulo1} className="card-img-top" alt="articulo1"></img>
+                        <a href='https://cutt.ly/tvq8Adm' target='_blank'><img src={articulo1} className="card-img-top" alt="articulo1"></img></a>
                         <div className="card-body">
                             <h5 className="card-title">Actos administrativos en la Ley I n 89: Misiones</h5>
                         </div>
@@ -26,7 +26,7 @@ export const CardsPublicationsSection = () => {
                 </div>
                 <div className="col">
                     <div className="card h-100 rounded border border-dark">
-                        <img src={articulo2} className="card-img-top" alt="articulo2"></img>
+                        <a href='https://cutt.ly/Avq8ZlY' target='_blank'><img src={articulo2} className="card-img-top" alt="articulo2"></img></a>
                         <div className="card-body">
                             <h5 className="card-title">Plazo de caducidad de los dividendos: Art. 224 Ley de Concursos y Quiebras</h5>
                         </div>
@@ -37,7 +37,7 @@ export const CardsPublicationsSection = () => {
                 </div>
                 <div className="col">
                     <div className="card h-100 rounded border border-dark">
-                        <img src={articulo3} className="card-img-top" alt="articulo3"></img>
+                        <a href='https://cutt.ly/Vvq8MeZ' target='_blank'><img src={articulo3} className="card-img-top" alt="articulo3"></img></a>
                         <div className="card-body">
                             <h5 className="card-title">Libertad de prensa y responsabilidad de los medios</h5>
                         </div>

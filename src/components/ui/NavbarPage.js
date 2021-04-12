@@ -24,10 +24,10 @@ export const NavbarPage = () => {
             <Navbar.Collapse id="basic-navbar-nav" className='ms-4'>
                 <Nav className="navbar-nav ms-auto me-4">
                     <NavLink className="nav-item nav-link" exact to="/">Inicio</NavLink>
-                    <NavLink className="nav-item nav-link" exact to="/about-us">¿Quienes somos?</NavLink>
-                    <NavLink className="nav-item nav-link" exact to="/published">Publicaciones</NavLink>
+                    <NavLink className="nav-item nav-link" exact to="/quienes-somos">¿Quienes somos?</NavLink>
+                    <NavLink className="nav-item nav-link" exact to="/publicaciones">Publicaciones</NavLink>
                     <NavLink className="nav-item nav-link" exact to="/blog">Blog</NavLink>
-                    <NavLink className="nav-item nav-link" exact to="/contact">Contacto</NavLink>
+                    <NavLink className="nav-item nav-link" exact to="/contacto">Contacto</NavLink>
                     {
                         user.logged &&
                         <NavLink

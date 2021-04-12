@@ -9,7 +9,7 @@ export const Footer = () => {
 
                     <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/matiSR444" target='_blank' role="button"><i   className="bi bi-twitter"></i></a>
 
-                    <a className="btn btn-outline-light btn-floating m-1" href="matias_rodriguez444@hotmail.com" target='_blank' role="button"><i   className="bi bi-google"></i></a>
+                    <a className="btn btn-outline-light btn-floating m-1" href="mailto:matias_rodriguez444@hotmail.com" role="button"><i   className="bi bi-google"></i></a>
 
                     <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/drrodriguezmatias/" target='_blank' role="button"><i   className="bi bi-instagram"></i></a>
                 </section>

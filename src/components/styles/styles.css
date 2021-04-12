@@ -42,7 +42,8 @@ footer {
 }
 
 .parrafos{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+  font-size: 140%;
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
@@ -50,14 +51,14 @@ footer {
 
 .titulos{
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  padding-top: 0.8%;
   text-align: center;
 }
 
 hr.new4 {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
   width: 70vw;
   border: 3px solid black;
 }
@@ -120,5 +121,15 @@ hr.new4 {
 
   [class*='card-img-top']{
     
+  }
+
+  [class*='parrafos']{
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  [class*='form-contact']{
+    margin-top: 4%;
   }
 }

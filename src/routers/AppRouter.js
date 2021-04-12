@@ -9,6 +9,9 @@ import {
 import { NavbarPage } from '../components/ui/NavbarPage';
 import { MainPage } from '../components/principal-content/MainPage';
 import { Footer } from '../components/ui/Footer';
+import { BlogManagement } from '../components/principal-content/BlogManagement';
+import { PrivateRoutes } from './PrivateRoutes';
+import { DashboardRoutes } from './DashboardRoutes';
 
 export const AppRouter = () => {
 
@@ -18,9 +21,9 @@ export const AppRouter = () => {
                 <NavbarPage></NavbarPage>
                 
                 <Switch>
-                    <Route exact path="/" component= { MainPage } />
-                    <Route path='/management' component={ LoginScreen } />
-                    <Redirect to='/' />
+                    <Route exact path='/management' component={ LoginScreen } />
+                    <PrivateRoutes path='/blog-management' component={ BlogManagement } />
+                    <Route path="/" component= { DashboardRoutes } />
                 </Switch>
                 
                 <Footer></Footer>

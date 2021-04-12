@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { CarouselSection } from './CarouselSection';
 
 export const WhoAreWeSection = () => {
     return (
-        <div>
+        <div className='animate__animated animate__fadeIn'>
+            
+            <CarouselSection></CarouselSection>
+            
             <div className='titulos'>
                 <h1>Dr. Matías Rodríguez</h1>
             </div>
