@@ -9,8 +9,8 @@ export const LoginScreen = ( {history} ) => {
     const { dispatch } = useContext( AuthContext );
 
     const [ formValues, handleImputChange ] = useForm({
-        userName: '',
-        password: ''
+        userName: 'matiasrodriguez',
+        password: 'probando1234'
     });
 
     const { userName, password } = formValues;
@@ -27,8 +27,8 @@ export const LoginScreen = ( {history} ) => {
                 }
             } );
             Swal.fire(
-                'Good job!',
-                'You clicked the button!',
+                'Bienvenido!',
+                'Estás como modo administrador.',
                 'success'
             );
             history.replace('/management/blog-create');

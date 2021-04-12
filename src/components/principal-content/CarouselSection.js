@@ -4,10 +4,10 @@ import honestidad from '../../static/honestidad.jpg';
 import compromiso from '../../static/compromiso.jpg';
 import { Carousel } from 'react-bootstrap';
 
-export const CarouselPage = () => {
+export const CarouselSection = () => {
     return (
         <div className='carousel'>
-                <Carousel fade prevLabel='' nextLabel=''>
+                <Carousel fade prevLabel='' nextLabel='' prevIcon='' nextIcon=''>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
