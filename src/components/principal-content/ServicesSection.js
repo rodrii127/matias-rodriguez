@@ -31,7 +31,7 @@ export const ServicesSection = () => {
             </div>
 
             <div>
-                <div className="row row-cols-2 row justify-content-center row-cols-md-5 g-4 mx-auto mb-4 mt-2">
+                <div className="row row-cols-2 row justify-content-center row-cols-md-5 g-4 mx-auto mb-4 mt-2 cards-services-row">
                     <div className="col">
                         <div className="card h-100 card-areas-servicios">
                             <div className="card-body">
@@ -74,7 +74,7 @@ export const ServicesSection = () => {
                     </div>
                 </div>
 
-                <div className="row row-cols-2 justify-content-center row-cols-md-5 g-4 mx-auto mb-4 mt-2">
+                <div className="row row-cols-2 justify-content-center row-cols-md-5 g-4 mx-auto mb-4 mt-2 cards-services-row">
                     <div className="col">
                         <div className="card h-100 card-areas-servicios">
                             <div className="card-body">
@@ -117,7 +117,7 @@ export const ServicesSection = () => {
                     </div>
                 </div>
 
-                <div className="row row-cols-2 row justify-content-center row-cols-md-5 g-4 mx-auto pb-4 mt-2">
+                <div className="row row-cols-2 row justify-content-center row-cols-md-5 g-4 mx-auto pb-4 mt-2 cards-services-row">
                     <div className="col">
                         <div className="card h-100 card-areas-servicios">
                             <div className="card-body">
@@ -151,7 +151,7 @@ export const ServicesSection = () => {
                     <div className="col">
                         <div className="card h-100 card-areas-servicios">
                             <div className="card-body">
-                                <h5 className="card-title areas-servicios" style={{fontSize:'19px'}}>Administrativo</h5>
+                                <h5 className="card-title areas-servicios">Administrativo</h5>
                                 <p className='image-card'>
                                     <img src={administrative} alt='administrative'></img>
                                 </p>
