@@ -119,13 +119,8 @@ hr.new4 {
     width: 100%;
   }
 
-  [class*='card-img-top']{
-    
-  }
-
   [class*='navbar-brand-logo']{
-    margin-right: auto;
-    margin-left: auto ;
+    margin-left: 35% ;
   }
 
   [class*='parrafos']{
