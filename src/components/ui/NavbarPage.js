@@ -17,7 +17,7 @@ export const NavbarPage = () => {
 
     return (
         <Navbar className="navbar navbar-expand-sm navbar-dark" expand="lg">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="" className='navbar-brand-logo'>
                 <img className='logo-navbar' src={logo} alt='Logo Matias Rodriguez'></img>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

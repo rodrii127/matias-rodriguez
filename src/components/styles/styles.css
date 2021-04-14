@@ -123,6 +123,11 @@ hr.new4 {
     
   }
 
+  [class*='navbar-brand-logo']{
+    margin-right: auto;
+    margin-left: auto ;
+  }
+
   [class*='parrafos']{
     text-align: justify;
     margin-left: 3%;
